@@ -11,15 +11,14 @@ h1 {
 
 .Top_header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
 a {
   color: white;
-}
-
-#Designed {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  font-size: 18px;
 }
 
 h5 {
@@ -39,4 +38,22 @@ h3 {
 
 p {
   font-size: 14px;
+}
+
+#Designed {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.Footer {
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+#Bottom_links {
+  font-size: 18px;
+  color: white;
 }
